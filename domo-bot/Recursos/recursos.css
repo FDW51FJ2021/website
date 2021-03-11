@@ -13,12 +13,33 @@ aside {
     background-color: rgb(247, 211, 211);
 }
 
+
 .fondo {
     margin: 0;
     padding: 10px;
-    background-color: rgb(241, 241, 184);
+    background-color: rgb(243, 193, 99);
 }
+
 
 .fondo2 {
     background: white;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
