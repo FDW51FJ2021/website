@@ -22,6 +22,7 @@ aside {
     color: #29627e;
 }
 
+
 h2 ,p{
     margin: 20px;
     padding: 5px;
@@ -29,6 +30,12 @@ h2 ,p{
 
 h1 {
     text-align: center;
+}
+
+blockquote {
+    box-shadow: inset 2px 50px 10px 2px #85919736;
+    font-style: italic;
+    color: #110000;
 }
 
 .fondo {
@@ -40,6 +47,10 @@ h1 {
 .fondonav {
     background-color: rgb(255, 255, 255); ;
     text-align: center;
+}
+
+.fondocontroversias {
+    background-color: rgb(244, 253, 166);
 }
 
 .fondofundamentos {
@@ -76,7 +87,8 @@ h1 {
     display: table;
 }
 
-li,dt {
-    margin-left: 20px; 
+li,dt,select {
+    margin-left: 20px;
+    margin-right: 20px; 
     padding: 5px;
 }
