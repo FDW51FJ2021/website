@@ -1,3 +1,4 @@
+/* propiedades general */
 address {
     display: block;
     font-style: italic;
@@ -62,7 +63,7 @@ li,dt,select {
     padding: 5px;
 }
 
-
+/* propiedades fondos */
 .fondo {
     margin: 0;
     padding: 10px;
@@ -100,6 +101,7 @@ li,dt,select {
     background: white;
 }
 
+/* propiedades tablas */
 table.tableizer-table {
     font-size: 12px;
     border: 1px solid #CCC; 
