@@ -13,12 +13,13 @@ footer {
 }
 
 aside {
-    width: 15%;
-    padding-left: 15px;
-    margin-left: 15px;
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
     float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
-    background-color: rgb(247, 211, 211);
+    color: #29627e;
 }
 
 h2 ,p{
@@ -41,13 +42,19 @@ h1 {
     text-align: center;
 }
 
-.fondotecnologias {
+.fondofundamentos {
     margin: 0;
     padding: 10px;
     background-color: rgb(99, 190, 243);
 }
 
-.fondo2 {
+.fondotecnologias {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(117, 226, 117);
+}
+
+.fondo2, section {
     background: white;
 }
 
@@ -69,7 +76,7 @@ h1 {
     display: table;
 }
 
-li {
+li,dt {
     margin-left: 20px; 
     padding: 5px;
 }
