@@ -38,6 +38,31 @@ blockquote {
     color: #110000;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float:right;
+    width: 33.33%;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+li,dt,select {
+    margin-left: 20px;
+    margin-right: 20px; 
+    padding: 5px;
+}
+
+
 .fondo {
     margin: 0;
     padding: 10px;
@@ -65,30 +90,33 @@ blockquote {
     background-color: rgb(117, 226, 117);
 }
 
+.fondoplantas {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(226, 117, 117);
+}
+
 .fondo2, section {
     background: white;
 }
 
+table.tableizer-table {
+    font-size: 12px;
+    border: 1px solid #CCC; 
+    font-family: Georgia, serif;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
-* {
-    box-sizing: border-box;
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #CCC;
+    text-align: center;
 }
 
-
-.column {
-    float:right;
-    width: 33.33%;
-}
-
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-li,dt,select {
-    margin-left: 20px;
-    margin-right: 20px; 
-    padding: 5px;
+.tableizer-table th {
+    background-color: #8b101a; 
+    color: #FFF;
+    font-weight: bold;
 }
