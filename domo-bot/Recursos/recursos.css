@@ -1,8 +1,16 @@
 address {
     display: block;
     font-style: italic;
+    text-align: center;
+    background-color: rgb(240, 164, 24);
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(155, 224, 236);
+    color: white;
+}
 
 aside {
     width: 15%;
@@ -13,6 +21,14 @@ aside {
     background-color: rgb(247, 211, 211);
 }
 
+h2 ,p{
+    margin: 20px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
 
 .fondo {
     margin: 0;
@@ -20,6 +36,16 @@ aside {
     background-color: rgb(243, 193, 99);
 }
 
+.fondonav {
+    background-color: rgb(255, 255, 255); ;
+    text-align: center;
+}
+
+.fondotecnologias {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(99, 190, 243);
+}
 
 .fondo2 {
     background: white;
@@ -32,9 +58,8 @@ aside {
 
 
 .column {
-    float: right;
+    float:right;
     width: 33.33%;
-    padding: 5px;
 }
 
 
@@ -42,4 +67,9 @@ aside {
     content: "";
     clear: both;
     display: table;
+}
+
+li {
+    margin-left: 20px; 
+    padding: 5px;
 }
