@@ -1,0 +1,216 @@
+/* Para el texto de bienvenida */
+h1{
+    margin: 1em 0;
+    text-align: center;
+}
+/* texto sobre pet store mopi */
+.Texto1{
+    font-size: 15px;
+    text-align: center;
+}
+
+/* texto del aside */
+h1.informacion{
+    font-size: 18px;
+    text-align: center;
+    margin:0;
+}
+
+h2.Alimento{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a1{
+    font-size: 12px;
+}
+
+h2.Accesorios{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a2{
+    font-size: 12px;
+}
+
+h2.Servicios{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a3{
+    font-size: 12px;
+}
+
+.Contacto{
+    color: black;
+    margin: 1em;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(179, 222, 228);
+    font-weight: bold;
+}
+
+/* Texto footer */
+.Dirección{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Puso de borde a borde el NAV */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* LONGITUD DE LA PAGINA */
+body{
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/* Margen del nav con el texto de abajo */
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+} 
+
+/* estilos para encabezados */
+header a {
+    display: block;
+}
+
+/* estilo del nav */
+header nav a:link, header nav a:visited{
+    background-color: #82b4c4;
+    color: white;
+    font-weight: bold;
+    padding: 0.9em;
+    
+}
+
+header nav a:hover, header nav a:active{
+    background-color: #f8a488;
+    color: white;
+    font-weight: bold;
+    padding: 0.9em;
+}
+
+/* Mueve el texto que hay en los botones del nav */
+header ul {
+    list-style: none;
+    text-align: center;
+  
+}
+/* Cambia de posicion los textos del nav */
+header ul li {
+    float: left;
+    width: 20%;
+}
+
+/* LETRA DE LOS BOTONES NAV */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+/* Controla la primer imagen */
+header img {
+    width: 100%;
+}
+
+/* 4 imagenes */
+.IMGAlim {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 2px;
+  }
+
+.IMGAcc {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 2px;
+  }
+
+.IMGServ {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 90px;
+  }
+
+.IMGMas {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 2px;
+  }
+
+/* posicionar las imagenes */
+.item1{
+    margin: 0;
+    padding: 1em;
+    float: left;
+}
+
+.item2{
+    margin: 0; 
+    padding: 1em;
+    float: right;
+}
+
+.item3{
+    margin: 0;
+    padding: 1em;
+    float: left;
+}
+
+/* main */
+#flotar-der{
+    width: 300px;
+    float: right;
+    margin: 0.5em;
+}
+
+main ul{
+    margin-left: 2em;
+}
+
+main ol{
+    margin-left: 2em;
+}
+
+main{
+    width: 70%;
+    float: left;
+}
+
+/* aside */
+aside{
+    width: 29%;
+    float: right;
+    padding: 1.7em;
+    background-color: #b490df;
+    margin: 2em 0;
+    height: 810px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    clear: both;
+    background-color: rgb(175, 202, 202);
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+

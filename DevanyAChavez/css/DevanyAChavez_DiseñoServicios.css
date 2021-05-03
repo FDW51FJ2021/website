@@ -1,0 +1,308 @@
+/* Para el titulo de servicios */
+.Inicio_Accesorios{
+    margin: 1.3em 0;
+    text-align: center;
+}
+
+/* texto sobre servicios */
+.Texto1{
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5em;
+}
+
+/* .Texto3{
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5em;
+} */
+
+/* titulo accesorios g,p,a,p,r */
+/* .Texto4{
+    font-size: 30px;
+    text-align: center;
+    margin: 0.5em;
+} */
+
+/* marcas servicios */
+.servicios{
+    font-size: 15px;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.li1{
+    font-size: 10px;
+    margin: 0.5em;
+    background-color: rgb(252, 235, 214);
+}
+
+
+/* imagenes con texto AG */
+
+/* .c{
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+} */
+
+/* .c .IMGTXT1{
+    width: 200px;
+    height: 300px; */
+    /* radio de los bordes */
+/*     border-radius: 25px;
+    overflow: hidden;
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-left: 0;
+    text-align:center; */
+    /* duracion movimiento img */
+/*     transition: all 0.35s;
+} */
+
+/* moviemiento de la imagen */
+/* .c .IMGTXT1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+} */
+/* 
+.c .card img{
+    width: 300px;
+    height: 200px;
+}
+ */
+/* .c .IMGTXT1 p{
+    padding: 0 1em;
+    font-size: 10px;
+    font-weight: 10;
+} */
+
+/* .c .IMGTXT2{
+    width: 200px;
+    height: 300px; */
+    /* radio de los bordes */
+/*     border-radius: 25px;
+    overflow: hidden;
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-left: 0;
+    text-align:center; */
+    /* duracion movimiento img */
+/*     transition: all 0.35s;
+}
+ */
+/* moviemiento de la imagen */
+/* .c .IMGTXT2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+} */
+
+/* .c .card img{
+    width: 300px;
+    height: 200px;
+}
+ */
+/* .c .IMGTXT2 p{
+    padding: 0 1em;
+    font-size: 10px;
+    font-weight: 10;
+}
+ */
+/* TEXTO DE LAS IMAGENES DE ACCESORIOS */
+/* .Texto5{
+    font-size: 15px;
+}
+
+.Texto6{
+    font-size: 20px;
+}
+
+.Texto7{
+    font-size: 15px;
+}
+
+.Texto8{
+    font-size: 20px;
+}
+
+.Texto9{
+    font-size: 15px;
+}
+
+.Texto10{
+    font-size: 20px;
+} */
+
+/* boton ir inicio */
+.ir_a_inicio{
+    font-size: 20px;
+    text-align: center;
+    margin: 1em;
+        
+}
+
+/* texto del aside */
+h1.informacion{
+    font-size: 18px;
+    text-align: center;
+    margin:0;
+}
+
+h2.Alimento{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a1{
+    font-size: 12px;
+}
+
+h2.Accesorios{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a2{
+    font-size: 12px;
+}
+
+h2.Servicios{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a3{
+    font-size: 12px;
+}
+
+.Contacto{
+    color: black;
+    margin: 1em;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(179, 222, 228);
+    font-weight: bold;
+}
+
+/* Texto footer */
+.Dirección{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Puso de borde a borde el NAV */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* LONGITUD DE LA PAGINA */
+body{
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/* Margen del nav con el texto de abajo */
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+} 
+
+/* estilos para encabezados */
+header a {
+    display: block;
+}
+
+/* estilo del nav */
+header nav a:link, header nav a:visited{
+    background-color: #82b4c4;
+    color: white;
+    font-weight: bold;
+    padding: 0.9em;
+    
+}
+
+header nav a:hover, header nav a:active{
+    background-color: #f8a488;
+    color: white;
+    font-weight: bold;
+    padding: 0.9em;
+}
+
+/* Mueve el texto que hay en los botones del nav */
+header ul {
+    list-style: none;
+    text-align: center;
+  
+}
+/* Cambia de posicion los textos del nav */
+header ul li {
+    float: left;
+    width: 20%;
+}
+
+/* LETRA DE LOS BOTONES NAV */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+/* Controla la primer imagen */
+header img {
+    width: 100%;
+}
+
+/* main */
+#flotar-der{
+    width: 300px;
+    float: left;
+    margin: 0.5em;
+}
+
+main ul{
+    margin-left: 2em;
+}
+
+main ol{
+    margin-left: 2em;
+}
+
+main{
+    width: 70%;
+    float: left;
+}
+
+/* aside */
+aside{
+    width: 29%;
+    float: right;
+    padding: 1.7em;
+    background-color: #b490df;
+    margin-top: 48px;
+    height: 4400px;
+} 
+
+/* footer */
+footer{
+    text-align: center;
+    clear: both;
+    background-color: rgb(175, 202, 202);
+    font-weight: bold;
+    padding: 0.5em;
+}
