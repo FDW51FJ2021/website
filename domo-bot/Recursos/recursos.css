@@ -122,3 +122,37 @@ table.tableizer-table {
     color: #FFF;
     font-weight: bold;
 }
+
+.divindex {
+    column-count: 2;
+    column-rule: 10px solid  rgb(243, 193, 99);
+}
+
+.divfund {
+    column-count: 2;
+    column-rule: 10px solid  rgb(99, 190, 243);
+}
+
+.divcont {
+    column-count: 2;
+    column-rule: 2px solid  rgb(0, 0, 0);
+}
+
+.divtec {
+    column-count: 3;
+    column-rule: 10px solid rgb(117, 226, 117);
+}
+
+.divtec2 {
+    column-count: 2;
+}
+
+.encuesta {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.divcuesta {
+    column-count: 2;
+}
