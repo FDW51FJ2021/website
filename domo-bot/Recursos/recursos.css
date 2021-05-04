@@ -123,6 +123,7 @@ table.tableizer-table {
     font-weight: bold;
 }
 
+/* Columnas */
 .divindex {
     column-count: 2;
     column-rule: 10px solid  rgb(243, 193, 99);
